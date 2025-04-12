@@ -1,10 +1,12 @@
-console.log("これはCDNで読み込んだ最新版の main.js です！");
 
 // CDNからthree.js本体を読み込む
 import * as THREE from 'https://unpkg.com/three@0.157.0/build/three.module.js';
 
 // CDNからPointerLockControlsを読み込む
 import { PointerLockControls } from 'https://unpkg.com/three@0.157.0/examples/jsm/controls/PointerLockControls.js';
+
+
+console.log("これはCDNで読み込んだ最新版の main.js です！");
 
 let camera, scene, renderer, controls;
 let bullets = [];
