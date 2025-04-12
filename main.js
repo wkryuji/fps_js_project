@@ -1,3 +1,5 @@
+console.log("これはCDNで読み込んだ最新版の main.js です！");
+
 // CDNからthree.js本体を読み込む
 import * as THREE from 'https://unpkg.com/three@0.157.0/build/three.module.js';
 
